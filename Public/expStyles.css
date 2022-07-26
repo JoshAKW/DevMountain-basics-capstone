@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(8, 8, 8, 0.969);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100vw;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  
+h1 {
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+  
+  nav {
+    position: fixed; top: 2%; right: 2%;
+      border-bottom: 2px solid white;
+  }
+
+  
+  .crumb {
+    color: white;
+    
+      position: sticky;
+      margin-right: 2em;
+      display: inline;
+  }
+  
+
+#contact-info {
+    position: fixed; top: 86%; right: 2%;
+    color: white;
+}
+
+ 
+
+
+
+
+
+
+  
+  form {
+    width: 350px;
+    height: 350px;
+    background-color: darkgray;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+  }
+
+
+  button {
+    background-color: darkgray;
+    width: 75px;
+    height: 35px;
+    color: white;
+    border: none;
+    margin: 5px;
+  }
+
+ #propose {
+    background-color: black;
+    width: 75px;
+    height: 35px;
+    color: white;
+    border: none;
+    margin: 5px;
+  }
+  
+  input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: black;
+    background-color: snow;
+  }
+  
+  #partySize-container {
+    width: 85%;
+  }
+  
+  #radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #expeditions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .expedition-cover-image {
+    width: 300px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .expedition-card {
+    background-color: darkgray;
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .expedition-address {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .expedition-partSize {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  .btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  .btns-container > button {
+    width: 20px;
+  }
+
+
+
+
+
+

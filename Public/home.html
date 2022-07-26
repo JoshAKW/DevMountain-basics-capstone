@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	
+	<video id="myVideo" src="https://videos.ctfassets.net/vsp83h9pnr7f/6iJRCQM2wxGRjCdk8Ay8EP/d90967a345551f5d308783c4cd954510/U22_WEBSITE_EDIT_FINAL_MK_2022-02-08_1.mp4"  autoplay="" loop="" muted="" playsinline="" poster="" style="opacity: 1;"></video>
+	
+	
+	<nav>
+		<ol>
+			<li class="crumb"><a href="./home.html">Home</a></li>
+			<li class="crumb"><a href="./destination.html"> Destinations</a></li>
+			<li class="crumb"><a href="./expeditions.html">Plan an Expedition</a></li>
+		</ol>
+	</nav>
+	<header>
+		<h1 id="page-title">Welcome to! <br> <br> Mars Expeditions and Adventures!</h1>
+	</header>
+	
+
+
+	<!-- <content> -->
+
+		  <aside>
+            <h2>Leave a Review</h2>
+
+            <form>
+                <label for="name-input">Your name:</label>
+                <input type='text' id="name-input"/>
+
+                <label for="guide-select">Your guide:</label>
+                <select id="guide-select"></select>
+
+				<textarea id="review-comments">Comments</textarea>
+
+                <h4>Rating</h4>
+                <div class="radio">
+                    <label for="rating-one">1:</label>
+                    <input type="radio" name="rating" value="1" id="rating-one" checked="true"/>
+                </div>
+
+                <div class="radio">
+                    <label for="rating-two">2:</label>
+                    <input type="radio" name="rating" value="2" id="rating-two"/>
+                </div>
+
+                <div class="radio">
+                    <label for="rating-three">3:</label>
+                    <input type="radio" name="rating" value="3" id="rating-three"/>
+                </div>
+
+                <div class="radio">
+                    <label for="rating-four">4:</label>
+                    <input type="radio" name="rating" value="4" id="rating-four"/>
+                </div>
+
+                <div class="radio">
+                    <label for="rating-five">5:</label>
+                    <input type="radio" name="rating" value="5" id="rating-five"/>
+                </div>
+                
+                <button>Add</button>
+            </form>
+        </aside>
+
+
+		<footer id="contact-info">Contact us at <br> MarsAdventures@Space.Gov <br> 1 (999) 999-999 <br> located at 1233 Clear Lake Texas, 85777</footer>
+
+        <section id="review-list"></section>
+
+
+
+
+
+
+
+	<!-- </content> -->
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="about.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "destination": "The trench",
+    "partySize": 1,
+    "imageUrl" : "https://cdn.mos.cms.futurecdn.net/XNRcoHujh5mZHmPQZzYbgH-970-80.jpg"
+  },
+  {
+    "id": 2,
+    "destination": "Outer orbit",
+    "partySize": 3,
+    "imageUrl" : "https://cdn.mos.cms.futurecdn.net/XNRcoHujh5mZHmPQZzYbgH-970-80.jpg"
+   
+  },
+  {
+    "id": 3,
+    "destination": "Ice caves",
+    "partySize": 4,
+    "imageUrl" : "https://thepanekroom.files.wordpress.com/2013/01/cave-geology.jpg?w=2560&h=1200&crop=1"
+  
+  }
+]

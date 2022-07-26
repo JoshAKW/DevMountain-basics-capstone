@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link href="expStyles.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./destination.html"> Destinations</a></li>
+	        <li class="crumb"><a href="./expeditions.html">Plan an Expedition</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Propose Your Expedition</h1>
+
+
+	</content>
+
+	<form>
+        <input 
+            type='text'
+            id="destination"
+            placeholder="What is the name of the place you wish to visit? "/>
+			
+			<input type='text' id="partySize"
+			placeholder="How many in your party?"/>
+
+
+        <input 
+            type='text'
+            id="img"
+            placeholder='Share a picture if you have one'/>
+        <button id="propose">Propose Expedition</button>
+    </form>
+
+
+
+
+    <section id="expeditions-container"></section>
+
+    <footer id="contact-info">Contact us at <br> MarsAdventures@Space.Gov <br> 1 (999) 999-999 <br> located at 1233 Clear Lake Texas, 85777</footer>
+
+
+
+
+	
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="expedition.js"></script>
+
+</body>
+</html>
